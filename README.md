@@ -10,4 +10,6 @@ Training from ardalis: <https://dometrain.com/bundle/from-zero-to-hero-modular-m
 - repo pattern, but no generic repo
 - no regular or minimal API, instead he uses <https://fast-endpoints.com/>
   - needs special packages for security, swagger
+- uses MediatR
+  - configured to load from different assemblies
 - uses Microsoft Identity
