@@ -26,7 +26,11 @@ Training from ardalis: <https://dometrain.com/bundle/from-zero-to-hero-modular-m
 
 ## Learnings
 
+- if you have 1 database: separate data using db-schema
 - modules (assemblies for books and users) communicate by MediatR
   - book module
   - user module, contains cart
-- 
+- needs an additional module (assembly)
+  - move request/response class to this contracts module
+  - move MediatR queries and handlers to an \integration folder
+  - avoid global contracts module - have one for each module
