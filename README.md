@@ -6,6 +6,7 @@ Training from ardalis: <https://dometrain.com/bundle/from-zero-to-hero-modular-m
 
 ## My thoughts
 
+- watch ardalis to type for hours
 - example uses EF + SQL Server
 - repo pattern, but no generic repo
 - no regular or minimal API, instead he uses <https://fast-endpoints.com/>
@@ -13,3 +14,19 @@ Training from ardalis: <https://dometrain.com/bundle/from-zero-to-hero-modular-m
 - uses MediatR
   - configured to load from different assemblies
 - uses Microsoft Identity
+
+## Module Communication options
+
+1. ask for it over HTTP --> slow, high coupling
+2. just query the book table directly --> high coupling
+3. call /books/{id} over http --> slow, high coupling
+4. call BookService directly --> high coupling
+5. make a loosely-coupled call via MediatR --> ok
+6. use materialized view --> ok (part 2 of this training)
+
+## Learnings
+
+- modules (assemblies for books and users) communicate by MediatR
+  - book module
+  - user module, contains cart
+- 
