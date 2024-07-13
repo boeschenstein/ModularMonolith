@@ -8,5 +8,6 @@ Training from ardalis: <https://dometrain.com/bundle/from-zero-to-hero-modular-m
 
 - example uses EF + SQL Server
 - repo pattern, but no generic repo
-- no regular or minimal API, but <https://fast-endpoints.com/>
+- no regular or minimal API, instead he uses <https://fast-endpoints.com/>
 - no MediatR
+- uses Microsoft Identity
