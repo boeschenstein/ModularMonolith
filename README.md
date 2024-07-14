@@ -4,10 +4,10 @@
 
 2 Trainings from ardalis:
 
-- Getting Stared: <https://dometrain.com/bundle/from-zero-to-hero-modular-monoliths-in-dotnet/>
-- Deep Dive: <https://courses.dometrain.com/courses/take/deep-dive-modular-monoliths-in-net/>
+- Part 1: Getting Stared: <https://dometrain.com/bundle/from-zero-to-hero-modular-monoliths-in-dotnet/>
+- Part 2: Deep Dive: <https://courses.dometrain.com/courses/take/deep-dive-modular-monoliths-in-net/>
 
-## Getting Started
+## Part 1: Getting Started
 
 ### My thougts about Getting Started
 
@@ -42,11 +42,11 @@
   - move MediatR queries and handlers to an \Integration folder (or "\ExternalInterface" or "\PublicInterface")
   - avoid global contracts module - have one for each module
 
-## Deep dive
+## Part 2: Deep dive
 
 ### My thoughts about Deep Dive
 
-## Module communication patterns
+### Module communication patterns
 
 - Direct Calls : ok
   - Project reference - compile time
