@@ -18,7 +18,8 @@
   - needs special packages for security, swagger
 - uses MediatR
   - configured to load from different assemblies
-- uses Microsoft Identity
+- uses Microsoft Identity (I'd prefer OAuth/OIDC approach)
+- if you know how to create an ASP.NET app (EF, Repository, MediatR), don't buy this course: go directly to the 'Deep dive'
 
 ### Module Communication options
 
