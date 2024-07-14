@@ -46,4 +46,14 @@
 
 ### My thoughts about Deep Dive
 
-todo
+## Module communication patterns
+
+- Direct Calls : ok
+  - Project reference - compile time
+  - Reflection - run time
+- Mediated Call (MediatR) : ok
+- Shared State (DB, File, ...) : Non Blocking
+- Message Bus Messages (Command, Event) : Non Blocking
+- Message Bus Messages (Queries: 2 queues) : Blocking
+- Store and Forward (Outbox) : Non Blocking
+- Cache and Subscribe (Materialized View pattern) : Non Blocking
