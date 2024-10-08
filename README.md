@@ -59,3 +59,6 @@
 - Cache and Subscribe (Materialized View pattern) : Non Blocking
 - General Classes: move to <app>.SharedKernel
 
+## Links
+
+- Check Architecture using ArchUnit <https://archunitnet.readthedocs.io/en/latest/guide/>
