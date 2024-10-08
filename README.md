@@ -36,7 +36,7 @@
 - modules (books, users) communicate by MediatR
   - book module (3 assemblies: book, book.Tests, Book.Contracts)
   - user module (contains cart)
-- needs an additional module (assembly Book.Contracts)
+- needs an additional module (assembly Book.Contracts - between Modules Users and Books)
   - no direct dependency between book and user (loosly coupled)
   - move MediatR request/response class to this contracts module
   - move MediatR queries and handlers to an \Integration folder (or "\ExternalInterface" or "\PublicInterface")
