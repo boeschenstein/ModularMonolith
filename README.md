@@ -57,3 +57,5 @@
 - Message Bus Messages (Queries: 2 queues) : Blocking
 - Store and Forward (Outbox) : Non Blocking
 - Cache and Subscribe (Materialized View pattern) : Non Blocking
+- General Classes: move to <app>.SharedKernel
+
